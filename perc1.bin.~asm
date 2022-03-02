@@ -1,0 +1,23 @@
+;latihan_nama_bp
+;penggunaan intruksi aritmatika
+
+ORG 00h
+MOV AL,2
+MOV AH,3
+ADD AL,AH
+ADD byte ptr [20],AL
+ADD BL, byte ptr [20]
+ADD BL,3
+
+MOV AL,2
+MOV AH,3
+ADD AL,AH
+ADD byte ptr [20],AL
+ADD BL, byte ptr [20]
+ADD BL,3
+
+RET
+
+
+
+; [SOURCE]: E:\reslab\modul 2 sismik\perc1.asm

@@ -1,0 +1,12 @@
+;latihan_nama_bp
+;penggunaan intruksi aritmatika
+
+ORG 00h
+MOV AL,100
+MOV BL,3
+MUL  BL
+RET
+
+
+
+; [SOURCE]: E:\reslab\modul 2 sismik\perc1.asm
